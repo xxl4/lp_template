@@ -52,16 +52,6 @@ $offer="https://tk.ushealth6.com/click.php?lp=1";
         });
     </script>
 
-    <!--Glue End-->
-    <div class="top-advertorial">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 text-center">
-                    <div id="top-advertorial-text">Advertorial</div>
-                </div>
-            </div>
-        </div>
-    </div>
     <style>
         .page-header-container {
             margin-bottom: 10px;
@@ -645,18 +635,7 @@ Ein solcher Qualitäts-BH zu diesem Preis lässt uns zu dieser Frage definitiv J
             }
         }
     </style>
-    <div id="floating-nav-content" class="floating-bar floating-bottom justify-center marked-elm" data-class=".btn-order" data-ticktopelm data-tickbottomelm=".show-floating">
-        <div class="container">
-            <div class="inner">
-                <div class="floating-desc">
-                    <p style="text-align: center;">Claim Your 60% Discount Today</p>
-                </div>
-                <a href="<?php echo $offer; ?>"  class="btn-floating-bar pulse" style="background-color: #19AF42">
-                    <p style="text-align: center;"><strong>Apply Discount & Check Availability</strong></p>
-                </a>
-            </div>
-        </div>
-    </div>
+
     <script>
         $(".image-pop").on("click", function () {
             $('#imagepreview').attr('src', $(this).attr('src'));
