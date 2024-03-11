@@ -18,7 +18,8 @@ $offer="https://tk.ushealth6.com/click.php?lp=1";
     <script src="js/jquery.min.js"></script>
     <script src="js/sticky.js" type="text/javascript"></script>
     <script src="js/scripts.js?v=4" type="text/javascript"></script>
-    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href="css/all.css" rel="stylesheet">
     <script type="text/javascript" src="js/lozad.min.js"></script>
 
