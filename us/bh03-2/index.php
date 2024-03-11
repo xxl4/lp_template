@@ -12,11 +12,9 @@ $offer="https://tk.ushealth6.com/click.php?lp=1";
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/sidebar.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/style2new.css">
-    <script async src="js/tfa.js" id="tb_tfa_script"></script>
     <script src="js/jquery.min.js"></script>
-   <script src="js/jquery.sticky.js" type="text/javascript"></script>
+   <script src="js/sticky.js" type="text/javascript"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href="css/all.css" rel="stylesheet">
     <script type="text/javascript" src="js/lozad.min.js></script>
     <style>
@@ -31,8 +29,7 @@ $offer="https://tk.ushealth6.com/click.php?lp=1";
             clear: both;
         }
     </style>
-    <!--Glue Start-->
-    <!--<link rel="stylesheet" href="images/bootstrap.offcanvas.min.css+bootstrap.min.css+drozshow.css+style.css+normalize.css+animate.css+jquery.glue.css.pagespeed.cc.ddncv8my_u.css">-->
+    
     <style type="text/css">
         a strong {
             text-decoration: underline
@@ -47,18 +44,9 @@ $offer="https://tk.ushealth6.com/click.php?lp=1";
     </style>
 
 
+    <script src="js/jquery-1.11.0.min.js"></script> 
 
-    <!-- glue !-->
-    <link rel="stylesheet" type="text/css" href="css/jquery.glue.css">
-    <script src="js/jquery.glue.min.js"></script>
 
-    <script>
-        $(document).ready(function() {
-            $.glue({
-                layer: '#beforeyougo'
-            });
-        });
-    </script>
 
     <!--Glue End-->
     <div class="top-advertorial">
@@ -685,8 +673,7 @@ $offer="https://tk.ushealth6.com/click.php?lp=1";
             $('#imagepreview').attr('src', $(this).attr('src'));
             $('#imagemodal').modal('show');
         });
-        const observer = lozad();
-        observer.observe();
+        
         $(window).scroll(function () {
             var scroll = $(window).scrollTop(); // how many pixels you've scrolled
             var os = $('#showbar').offset().top; // pixels to the top of div1
@@ -2417,6 +2404,29 @@ $offer="https://tk.ushealth6.com/click.php?lp=1";
             </div>
         </div>
     </div>
-    <div id="screen" style="display: none;"></div>
-    <link rel="stylesheet" href="css/loader.css">
+
+    <div class="bot" style="width: 100%;
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);"><a href="<?php echo $offer; ?>" target="_blank" style='width: 380px;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #E69138;
+    color: #ffffff;
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 40px;
+    text-decoration: none;
+    border-radius: 3px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -20px;
+    margin-left: -190px;
+    transition: all 0.3s linear;'>Sichern Sie sich jetzt 50 % Rabatt</a></div>
 </body></html>
