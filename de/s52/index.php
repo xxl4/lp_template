@@ -16,10 +16,10 @@ $offer="https://tk.ushealth6.com/click.php?lp=1";
 
     <link rel="stylesheet" type="text/css" href="css/style2new.css">
     <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.sticky.js" type="text/javascript"></script>
+    <script src="js/sticky.js" type="text/javascript"></script>
     <script src="js/scripts.js?v=4" type="text/javascript"></script>
     <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     <link href="css/all.css" rel="stylesheet">
     <script type="text/javascript" src="js/lozad.min.js"></script>
 
@@ -93,29 +93,7 @@ $offer="https://tk.ushealth6.com/click.php?lp=1";
         }
     </style>
 
-        <!--Glue content start-->
-    <div id="beforeyougo" style="display:none;" class="glue_popup">
-        <div class="glue_close" onClick="$.glue_close()">X</div>
-        <div class="glue_content">
-            <div class="glue_box_left">
-                <img src="css/wait.png" alt="wait" title="Wait">
-                <h3><span>Nur €49.6</span> ist nur für eine begrenzte Zeit verfügbar!</h3>
-            </div>
-
-            <div class="glue_box_right">
-                <h2 class="beforeyou">BEVOR SIE GEHEN!</h2>
-                <p>Sie sollten wissen, dass nach heute €49.6 für diese Schuhe nicht mehr verfügbar sein werde.</p>
-                <div class="product">
-                    <ul>
-                        <li><a href="<?php echo $offer; ?>" target="_blank" onClick="PreventExitPop = false"><img src="images/abc.gif" height="230" /></a></li>
-                    </ul>
-                </div>
-                <div class="rushbutton"><a class="btn btn-success btn-lg" href="<?php echo $offer; ?>" target="_blank" onclick="PreventExitPop = false" onClick="_pixelfire();">Holen Sie sich Ihre Schuhe</a>
-                </div>
-                <small><font face="Arial">Diese Produkte werden extrem schnell ausverkauft. Handeln Sie noch heute.</font></small>
-            </div>
-        </div>
-    </div>
+   
     <div class="container" style="transform: none;">
         <!-- <div class="exclusive">Home › Trending › Technology</div> -->
         <div class="page-row  row wrapper" style="transform: none;">
@@ -2425,7 +2403,30 @@ $offer="https://tk.ushealth6.com/click.php?lp=1";
     <div id="screen" style="display: none;"></div>
     <link rel="stylesheet" href="css/loader.css">
 
-    
+    <div class="bot" style="width: 100%;
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);"><a href="<?php echo $offer; ?>" target="_blank" style='width: 380px;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #E69138;
+    color: #ffffff;
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 40px;
+    text-decoration: none;
+    border-radius: 3px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -20px;
+    margin-left: -190px;
+    transition: all 0.3s linear;'>Sichern Sie sich jetzt 50 % Rabatt</a></div>
 
 
 </body></html>
