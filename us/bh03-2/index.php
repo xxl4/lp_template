@@ -641,18 +641,7 @@ $offer="https://tk.ushealth6.com/click.php?lp=1";
             }
         }
     </style>
-    <div id="floating-nav-content" class="floating-bar floating-bottom justify-center marked-elm" data-class=".btn-order" data-ticktopelm data-tickbottomelm=".show-floating">
-        <div class="container">
-            <div class="inner">
-                <div class="floating-desc">
-                    <p style="text-align: center;">Claim Your 60% Discount Today</p>
-                </div>
-                <a href="<?php echo $offer; ?>"  class="btn-floating-bar pulse" style="background-color: #19AF42">
-                    <p style="text-align: center;"><strong>Apply Discount & Check Availability</strong></p>
-                </a>
-            </div>
-        </div>
-    </div>
+   
     <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
