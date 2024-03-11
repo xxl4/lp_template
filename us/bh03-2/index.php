@@ -46,8 +46,7 @@ $offer="https://tk.ushealth6.com/click.php?lp=1";
         }
     </style>
 
-    <!-- jQuery !-->
-    <script src="js/jquery-1.11.0.min.js"></script>
+
 
     <!-- glue !-->
     <link rel="stylesheet" type="text/css" href="css/jquery.glue.css">
