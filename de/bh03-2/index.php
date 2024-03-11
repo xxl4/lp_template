@@ -12,13 +12,9 @@ $offer="https://tk.ushealth6.com/click.php?lp=1";
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/sidebar.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/style2new.css">
-    <script async src="js/tfa.js" id="tb_tfa_script"></script>
     <script src="js/jquery.min.js"></script>
    <script src="js/sticky.js" type="text/javascript"></script>
-   <script src="js/jquery.sticky.js" type="text/javascript"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
-    <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href="css/all.css" rel="stylesheet">
     <script type="text/javascript" src="js/lozad.min.js></script>
     <style>
@@ -26,27 +22,23 @@ $offer="https://tk.ushealth6.com/click.php?lp=1";
             opacity: 0;
         }
     </style>
-    <style id="theia-sticky-sidebar-stylesheet-TSS">
+    <style>
         .theiaStickySidebar:after {
             content: "";
             display: table;
             clear: both;
         }
-    </style>
-    <!--Glue Start-->
-    <!--<link rel="stylesheet" href="images/bootstrap.offcanvas.min.css+bootstrap.min.css+drozshow.css+style.css+normalize.css+animate.css+jquery.glue.css.pagespeed.cc.ddncv8my_u.css">-->
-    <style type="text/css">
         a strong {
             text-decoration: underline
         }
-    </style>
-	
-    <style type="text/css">
         * {
             padding: 0;
             margin: 0;
         }
     </style>
+
+    
+   <script src="js/jquery-1.11.0.min.js"></script> 
 
     <!-- glue !-->
     <link rel="stylesheet" type="text/css" href="css/jquery.glue.css">
@@ -80,31 +72,8 @@ $offer="https://tk.ushealth6.com/click.php?lp=1";
         }
     </style>
 
-        <!--Glue content start-->
-    <div id="beforeyougo" style="display:none;" class="glue_popup">
-        <div class="glue_close" onClick="$.glue_close()">X</div>
-        <div class="glue_content">
-            <div class="glue_box_left">
-                <img src="images/wait.png" alt="wait" title="Wait">
-                <h3><span>Nur €29.98</span> sind für eine begrenzte Zeit verfügbar!</h3>
-            </div>
-
-            <div class="glue_box_right">
-                <h2 class="beforeyou">BEVOR SIE GEHEN!</h2>
-                <p>Sie sollten wissen, dass nach heute €29.98 für diese BHs nicht mehr verfügbar sein wird..</p>
-                <div class="product">
-                    <ul>
-                        <li><a href="<?php echo $offer; ?>" target="_blank" onClick="PreventExitPop = false"><img src="images/abc.gif" height="230" /></a></li>
-                    </ul>
-                </div>
-                <div class="rushbutton"><a class="btn btn-success btn-lg" href="<?php echo $offer; ?>" target="_blank" onclick="PreventExitPop = false" onClick="_pixelfire();">Holen Sie sich Ihren BH</a>
-                </div>
-                <small><font face="Arial">Diese Produkte gehen äußerst schnell aus. Handeln Sie also noch heute.</font></small>
-            </div>
-        </div>
-    </div>
+  
     <div class="container" style="transform: none;">
-        <!-- <div class="exclusive">Home › Trending › Technology</div> -->
         <div class="page-row  row wrapper" style="transform: none;">
 
             <div class="col-sm-8 col-xs-12 content" style="background-color: rgb(255, 255, 255); border-radius: 7px; position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">
@@ -688,28 +657,12 @@ Ein solcher Qualitäts-BH zu diesem Preis lässt uns zu dieser Frage definitiv J
             </div>
         </div>
     </div>
-    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-                    <h4 class="modal-title" id="myModalLabel"></h4>
-                </div>
-                <div class><img id="imagepreview" class="img-responsive center-block">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
     <script>
         $(".image-pop").on("click", function () {
             $('#imagepreview').attr('src', $(this).attr('src'));
             $('#imagemodal').modal('show');
         });
-        const observer = lozad();
-        observer.observe();
+
         $(window).scroll(function () {
             var scroll = $(window).scrollTop(); // how many pixels you've scrolled
             var os = $('#showbar').offset().top; // pixels to the top of div1
@@ -726,7 +679,7 @@ Ein solcher Qualitäts-BH zu diesem Preis lässt uns zu dieser Frage definitiv J
         });
 
     </script>
-    <script src="js/app1.js"></script>
+
     <style>
         #popup1 {
             position: fixed;
@@ -2381,65 +2334,31 @@ Ein solcher Qualitäts-BH zu diesem Preis lässt uns zu dieser Frage definitiv J
         }
     </style>
 
-    <div id="process-popup2" class="newcl" style="display: none;">
-        <div class="pop-in">
-            <br>
-            <center>
-                <div class="10">
-                    <!-- <img src="static/images/blauxpac.jpg" alt="img" class="pop-logo"
-                        style="margin-bottom: 10px; height: 100px; width: auto;"> -->
-                </div>
-            </center>
-            <div class="pop-txt">
-                <div class="pop-txt-inner" style="max-width: 70%; margin: 0 auto;">
-                    <center>
-                        <p class="11">
-                            <img src="images/gif-loader.gif" style="width: 30px; height: auto; margin-bottom: 16px;">
-                            <br>Checking if 60% discount is still available near China <img src="images/cn.png" class="countryFlag">
-                        </p>
-                    </center>
-                    <center>
-                        <p class="12" style="display: none;"><img src="images/gif-loader.gif" style="width: 30px; height: auto; margin-bottom: 16px;"> <br>Checking for available
-                            stock...
-                        </p>
-                    </center>
-                    <center>
-                        <p class="13" style="display: none;"><img src="images/checkmark.gif" style="width: 97px; height: auto;"><br>
-                            Success! Stock Available!<br>
-                            <img src="images/cn.png" class="countryFlag">
-                            Availability: <span style="color: red;">Very Low</span> <span style="color: green;">(in
-                                stock*)</span>
-                        </p>
-                    </center>
-                    <center>
-                        <div class="14" style="display: none;">
-                            <p style="text-align: left;"><strong>Editor's note:</strong> Due to unforeseen popularity
-                                and
-                                limited supply - your exclusive discount will be <strong>reserved and valid for a
-                                    limited time</strong>.</p>
-                            <p style="text-align: left;">It will be given to someone else if it is not used within this
-                                time.</p>
-                            <p><a class="loaderBtn" href="<?php echo $offer; ?>"  title="See offer now">Claim
-                                    Discount >></a></p>
-                            <p style="font-size: 15px;">
-                                <img src="images/cn.png" class="countryFlag">
-                                Availability: <span style="color: red;">Very Low</span> <span style="color: green;">(in
-                                    stock*)</span><br>
-                            </p>
-                            <p></p>
-                        </div>
-                    </center>
-                </div>
-                <div class="clearall"></div>
-                <div id="grp-progress">
-                    <div id="progress-bar">
-                        <div id="text_bar"></div>
-                    </div>
-                </div>
-                <div class="clearall"></div>
-            </div>
-        </div>
-    </div>
-    <div id="screen" style="display: none;"></div>
-    <link rel="stylesheet" href="css/loader.css">
-</body></html>
+    
+    <div class="bot" style="width: 100%;
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);"><a href="<?php echo $offer; ?>" target="_blank" style='width: 380px;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #E69138;
+    color: #ffffff;
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 40px;
+    text-decoration: none;
+    border-radius: 3px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -20px;
+    margin-left: -190px;
+    transition: all 0.3s linear;'>Sichern Sie sich jetzt 50 % Rabatt</a></div>
+    
+</body>
+</html>
