@@ -1,0 +1,28 @@
+@media print{
+    body{display:none}
+}
+#menu{
+    display: none;
+    width: 240px;
+    position: absolute;
+    border-style: groove;
+    font-size: 13px;
+    border-radius: 10px;
+    border-width: 0;
+    box-shadow: 0 0 0 #C6C3C3, 0 0 0 #C6C3C3, 0 0 0 #C6C3C3, 0 0 10px #C6C3C3;
+    background-color: #ffffff;
+}
+.menu-item{
+    height: 15px;
+    line-height: 15px;
+    font-size: 12px;
+    padding: 6px 26px;
+    margin: 8px 0;
+    color: #404040;
+}
+.menu-item .right{
+    float: right;
+}
+.menu-item:hover{
+    background-color: #f1f1f1;
+}

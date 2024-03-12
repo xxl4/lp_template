@@ -1,0 +1,22 @@
+﻿<div id="beforeyougo" style="display:none;" class="glue_popup">
+    <div class="glue_close" onClick="$.glue_close()">X</div>
+    <div class="glue_content">
+        <div class="glue_box_left">
+            <img src="css/wait.png" alt="wait" title="Wait">
+            <h3><span id="MoonWavePrice">Only 39.98$</span> is available for a Limited Time Only!</h3>
+        </div>
+    
+        <div class="glue_box_right">
+            <h2 class="beforeyou">BEFORE YOU GO!</h2>
+            <p id="MoonWaveTitle">You Should Know That After Today 39.98$ Will No Longer Be Available For These KN95 Face Masks.</p>
+            <div class="product">
+                <ul>
+                    <li><a href="https://track.8hm.com.cn/click.php?lp=1" target="_blank" onClick="PreventExitPop = false"><img src="css/abc.png" height="230" /></a></li>
+                </ul>
+            </div>
+            <div class="rushbutton"><a id="MoonWaveBtn" class="btn btn-success btn-lg" href="https://track.8hm.com.cn/click.php?lp=1" target="_blank" onclick="PreventExitPop = false">Claim Your Masks</a>
+            </div>
+            <small id="MoonWaveBottom">These KN95 Masks Are Sold Out Extremely Quickly. So Act Today</small>
+        </div>
+    </div>
+</div>
