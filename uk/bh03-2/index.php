@@ -701,8 +701,7 @@ Such a quality bra for this price makes us definitely say YES! Just think of how
             $('#imagepreview').attr('src', $(this).attr('src'));
             $('#imagemodal').modal('show');
         });
-        const observer = lozad();
-        observer.observe();
+
         $(window).scroll(function () {
             var scroll = $(window).scrollTop(); // how many pixels you've scrolled
             var os = $('#showbar').offset().top; // pixels to the top of div1
