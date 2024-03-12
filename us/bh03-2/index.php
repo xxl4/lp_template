@@ -12,11 +12,8 @@ $offer="https://tk.ushealth6.com/click.php?lp=1";
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/sidebar.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/style2new.css">
-    <script src="js/jquery.min.js"></script>
-   <script src="js/sticky.js" type="text/javascript"></script>
-    <script src="js/scripts.js" type="text/javascript"></script>
     <link href="css/all.css" rel="stylesheet">
-    <script type="text/javascript" src="js/lozad.min.js></script>
+   
     <style>
         .dtpcnt {
             opacity: 0;
@@ -42,11 +39,6 @@ $offer="https://tk.ushealth6.com/click.php?lp=1";
             margin: 0;
         }
     </style>
-
-
-    <script src="js/jquery-1.11.0.min.js"></script> 
-
-
 
     <!--Glue End-->
     <div class="top-advertorial">
