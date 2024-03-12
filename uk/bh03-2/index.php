@@ -19,7 +19,7 @@ $offer="https://tk.wmcer.com/click.php?lp=1";
   crossorigin="anonymous"></script>
   <script src="js/theia-sticky-sidebar.min.js"></script>
   <script src="js/scripts.js"></script>
-  <script src="js/jquery.glue.min.js"></script>
+
   
     <link href="css/all.css" rel="stylesheet">
     <style>
@@ -34,8 +34,7 @@ $offer="https://tk.wmcer.com/click.php?lp=1";
             clear: both;
         }
     </style>
-    <!--Glue Start-->
-    <!--<link rel="stylesheet" href="images/bootstrap.offcanvas.min.css+bootstrap.min.css+drozshow.css+style.css+normalize.css+animate.css+jquery.glue.css.pagespeed.cc.ddncv8my_u.css">-->
+
     <style type="text/css">
         a strong {
             text-decoration: underline
@@ -55,13 +54,6 @@ $offer="https://tk.wmcer.com/click.php?lp=1";
     <link rel="stylesheet" type="text/css" href="css/jquery.glue.css">
     
 
-    <script>
-        $(document).ready(function() {
-            $.glue({
-                layer: '#beforeyougo'
-            });
-        });
-    </script>
 
     <!--Glue End-->
     <div class="top-advertorial">
